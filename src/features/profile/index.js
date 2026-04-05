@@ -22,7 +22,7 @@ export default function ProfilePage() {
         <div>
           <UserIcon />
         </div>
-        <div>{data.full_name || "-"}</div>
+        {/* <div>{data.full_name || "-"}</div> */}
         <div>{user.email}</div>
         <div>Edit Button</div>
         <Button variant="destructive" onClick={logout}>
